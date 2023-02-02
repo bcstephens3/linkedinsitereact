@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background: #8f929e;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +13,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.info-chunk > img
+{
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -110%);
+}
+
+.info-chunk
+{
+  text-align: center;
+  padding-top: 450px ;
+}
+
+.about-chunk{
+  text-align: center;
+}
+
+
