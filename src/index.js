@@ -10,10 +10,12 @@ import Interests from './Interests';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Info/>
-    <About/>
-    <Interests/>
-    <Footer/>
+    <div className='main-frame'>
+      <Info/>
+      <About/>
+      <Interests/>
+      <Footer/>
+    </div>
   </React.StrictMode>
 );
 

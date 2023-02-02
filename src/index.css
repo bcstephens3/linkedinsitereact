@@ -1,12 +1,18 @@
 body {
   margin: 0;
-  background: #8f929e;
+  background: #242426;
   
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.main-frame{
+  max-width: 500px;
+  margin: auto;
+  background-color: rgb(113, 129, 129);
 }
 
 code {
@@ -27,6 +33,7 @@ code {
 {
   text-align: center;
   padding-top: 430px ;
+  max-width: 500px;
 }
 
 .info-name{
@@ -34,26 +41,36 @@ code {
 
 }
 .about-chunk{
-  text-align: center;
+  text-align: left;
 }
 
 .about-chunk > h1{
   color: white;
+  text-align: center;
 }
 
-.interest-chunk{
-  text-align: center;
+.about-chunk > h3{
+  text-align: left;
+  padding-left: 125px;
+}
+
+.interest-chunk > h3{
+  text-align: left;
+  padding-left: 125px;
+
 }
 
 .interest-chunk > h1{
   color: white;
+  text-align: center;
 }
 
 .footer-chunk{
   text-align: center;
   background: orange;
-  padding-bottom: 1px;
-
+  padding-bottom: 10px;
+  color: black;
 }
+
 
 
