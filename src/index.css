@@ -14,24 +14,46 @@ code {
     monospace;
 }
 
-
-
 .info-chunk > img
 {
   position: absolute;
   top: 50%;
   left: 50%; 
   transform: translate(-50%, -110%);
+  padding-bottom: 50px;
 }
 
 .info-chunk
 {
   text-align: center;
-  padding-top: 450px ;
+  padding-top: 430px ;
 }
 
+.info-name{
+  color: white;
+
+}
 .about-chunk{
   text-align: center;
+}
+
+.about-chunk > h1{
+  color: white;
+}
+
+.interest-chunk{
+  text-align: center;
+}
+
+.interest-chunk > h1{
+  color: white;
+}
+
+.footer-chunk{
+  text-align: center;
+  background: orange;
+  padding-bottom: 1px;
+
 }
 
 

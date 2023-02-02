@@ -4,11 +4,12 @@ export default function Info()
         <div className="info-chunk">
             <img src="./scooter.png"></img>
             <div>
-            <h1>Brandon Stephens</h1>
-            <h2>Frontend Developer</h2>
-            <h3>awesome.com</h3>
-            <button type="button">Primary</button>
-            <button type="button">Secondary</button>
+            <h1 className="info-name">Brandon Stephens</h1>
+            <h3>Frontend Developer</h3>
+            <h4>awesome.com</h4>
+            <button type="button" class="btn btn-primary">Email</button>
+            &nbsp;&nbsp;&nbsp;
+            <button type="button" class="btn btn-secondary">LinkedIn</button>
             </div>
             
         </div>
